@@ -1,4 +1,3 @@
-
 # Theory
 
 ## 1. What is Emmet?
@@ -47,4 +46,4 @@ The `crossorigin` attribute in the script tag is used to handle CORS (Cross-Orig
 ## 8. What is async and defer?
 - **async**: The `async` attribute is used in the script tag to specify that the script should be executed asynchronously. This means the script is fetched in the background and executed as soon as it is available, without blocking the HTML parsing.
 - **defer**: The `defer` attribute is used in the script tag to specify that the script should be executed after the HTML has been parsed. This ensures that the script is executed in the order it appears in the document and only after the entire document is ready.
-
+```
