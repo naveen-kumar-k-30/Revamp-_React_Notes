@@ -2,7 +2,7 @@
   "name": "2_bundle",
   "version": "1.0.0",
   "description": "NPM (Node Package Manager) is a package manager for JavaScript and is the default package manager for the JavaScript runtime environment Node.js. It helps developers to install, share, and manage dependencies (libraries and tools) in their projects. NPM also provides a registry where developers can publish their own packages.",
-  "main": "index.js",
+  
  "scripts": {
   "start": "parcel index.html",
   "build": "parcel build index.html"
