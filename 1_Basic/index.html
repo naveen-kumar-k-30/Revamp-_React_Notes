@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>React-1</title>
-  </head>
-  <body>
     <script
       crossorigin
       src="https://unpkg.com/react@18/umd/react.development.js"
@@ -14,11 +12,18 @@
       crossorigin
       src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
     ></script>
-    <div id="1">
+  </head>
+  <body>
+    <div id="root">
       <div id="2">
         <h1 class="heading">Heading</h1>
         <h1 class="heading">Heading</h1>
       </div>
-    </div>
+    </div>  
+    <script>
+        const headingElement = React.createElement("h1", { className: 'heading' }, "Hello world!");
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+        root.render(headingElement);
+    </script>
   </body>
 </html>
